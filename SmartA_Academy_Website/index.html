@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SmartA Academy offers practical online IT training in Web Design, UI/UX Design, programming, and MERN Stack development.">
+  <title>SmartA Academy | Learn. Practice. Grow.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"><span class="topline-dot"></span> ONLINE IT TRAINING · WEEKEND BATCHES AVAILABLE</div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="SmartA Academy home">
+        <span class="brand-mark">S<span>A</span></span>
+        <span class="brand-name">SmartA <small>ACADEMY</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#training">Training</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#contact">Enquire Now <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT CHAPTER STARTS HERE</div>
+          <h1>Build skills.<br>Build <span>your future.</span></h1>
+          <p class="hero-text">Practical IT training for curious minds and future developers. Learn step by step, create real projects, and grow with confidence — from wherever you are.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#courses">Explore Courses <span>↗</span></a>
+            <a class="button button-ghost" href="#training"><span class="play-icon">▶</span> How we teach</a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-icon">✦</div>
+            <div><strong>Learn by doing</strong><small>Practical lessons · Project-focused learning</small></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Decorative code and learning illustration">
+          <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+          <div class="visual-card code-card">
+            <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>your-future.js</span><span class="code-status">●</span></div>
+            <div class="code-body">
+              <div><b>01</b><code><span class="code-purple">const</span> future = <span class="code-green">'yours'</span>;</code></div>
+              <div><b>02</b><code><span class="code-purple">function</span> <span class="code-blue">learn</span>() {</code></div>
+              <div><b>03</b><code class="indent">practice();</code></div>
+              <div><b>04</b><code class="indent">buildProjects();</code></div>
+              <div><b>05</b><code>}</code></div>
+              <div><b>06</b><code><span class="code-blue">learn</span>(); <span class="cursor"></span></code></div>
+            </div>
+            <div class="code-footer"><span>✦ Keep growing</span><span>UTF-8&nbsp; · &nbsp;JavaScript</span></div>
+          </div>
+          <div class="floating-chip chip-top"><span>✦</span> Practical learning</div>
+          <div class="floating-chip chip-bottom"><span class="chip-check">✓</span><div><strong>One step at a time</strong><small>Progress with purpose</small></div></div>
+          <div class="hero-spark spark-one">✳</div><div class="hero-spark spark-two">✦</div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>DESIGNED FOR BEGINNERS</span><span class="bottom-divider"></span><span>ONLINE LEARNING</span><span class="bottom-divider"></span><span>REAL-WORLD PRACTICE</span></div>
+    </section>
+
+    <section class="section courses-section" id="courses">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> FIND YOUR PATH</div><h2>Skills that move<br>you <span>forward.</span></h2></div>
+          <p>Start with the fundamentals or explore a new creative or technical path. Choose a course that matches your goals.</p>
+        </div>
+        <div class="course-grid">
+          <article class="course-card">
+            <div class="course-icon icon-web">&lt;/&gt;</div><div class="course-meta"><span>DESIGN + CODE</span><span class="course-number">01</span></div>
+            <h3>Web Design</h3><p>Design and build responsive websites with the core tools of the web.</p>
+            <div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="course-link" href="#contact" data-course="Web Design">Ask about this course <span>↗</span></a>
+          </article>
+          <article class="course-card featured-card">
+            <div class="course-icon icon-ux">◈</div><div class="course-meta"><span>CREATIVE THINKING</span><span class="course-number">02</span></div>
+            <h3>UI/UX Design</h3><p>Understand users, map experiences, and create clean, usable interfaces.</p>
+            <div class="tag-row"><span>Research</span><span>Wireframes</span><span>Prototypes</span></div>
+            <a class="course-link" href="#contact" data-course="UI/UX Design">Ask about this course <span>↗</span></a>
+          </article>
+          <article class="course-card">
+            <div class="course-icon icon-xd">Xd</div><div class="course-meta"><span>INTERFACE DESIGN</span><span class="course-number">03</span></div>
+            <h3>Adobe XD</h3><p>Create website and mobile app layouts with interactive prototypes.</p>
+            <div class="tag-row"><span>UI Design</span><span>Prototype</span><span>Flow</span></div>
+            <a class="course-link" href="#contact" data-course="Adobe XD">Ask about this course <span>↗</span></a>
+          </article>
+          <article class="course-card">
+            <div class="course-icon icon-c">C</div><div class="course-meta"><span>PROGRAMMING BASICS</span><span class="course-number">04</span></div>
+            <h3>C Programming</h3><p>Build a strong programming foundation through logic and practice.</p>
+            <div class="tag-row"><span>Basics</span><span>Logic</span><span>Functions</span></div>
+            <a class="course-link" href="#contact" data-course="C Programming">Ask about this course <span>↗</span></a>
+          </article>
+          <article class="course-card">
+            <div class="course-icon icon-java">☕</div><div class="course-meta"><span>OBJECT-ORIENTED CODE</span><span class="course-number">05</span></div>
+            <h3>Java</h3><p>Learn core concepts, object-oriented programming, and practical coding.</p>
+            <div class="tag-row"><span>Core Java</span><span>OOP</span><span>Practice</span></div>
+            <a class="course-link" href="#contact" data-course="Java">Ask about this course <span>↗</span></a>
+          </article>
+          <article class="course-card">
+            <div class="course-icon icon-python">Py</div><div class="course-meta"><span>VERSATILE PROGRAMMING</span><span class="course-number">06</span></div>
+            <h3>Python</h3><p>Learn readable, practical programming and build your first mini-projects.</p>
+            <div class="tag-row"><span>Basics</span><span>OOP</span><span>Mini projects</span></div>
+            <a class="course-link" href="#contact" data-course="Python">Ask about this course <span>↗</span></a>
+          </article>
+          <article class="course-card course-wide">
+            <div class="course-icon icon-mern">M</div><div class="course-wide-content"><div class="course-meta"><span>FULL-STACK DEVELOPMENT</span><span class="course-number">07</span></div><h3>MERN Stack Development</h3><p>Explore full-stack web development by connecting a modern front end to a database and server.</p><div class="tag-row"><span>MongoDB</span><span>Express.js</span><span>React</span><span>Node.js</span></div></div>
+            <a class="course-link" href="#contact" data-course="MERN Stack Development">Ask about this course <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section training-section" id="training">
+      <div class="container training-grid">
+        <div class="training-visual">
+          <div class="training-panel">
+            <div class="panel-top"><span>SMARTA LEARNING METHOD</span><span class="panel-star">✦</span></div>
+            <div class="method-step"><span class="step-no">01</span><div><strong>Understand</strong><small>Learn the concept in simple steps.</small></div><span class="step-symbol">◎</span></div>
+            <div class="method-step"><span class="step-no">02</span><div><strong>Practice</strong><small>Try it yourself with guided tasks.</small></div><span class="step-symbol">⌘</span></div>
+            <div class="method-step"><span class="step-no">03</span><div><strong>Create</strong><small>Apply your skills in mini-projects.</small></div><span class="step-symbol">✧</span></div>
+            <div class="panel-progress"><span></span></div><div class="panel-caption"><span>YOUR LEARNING JOURNEY</span><span>KEEP GOING ↗</span></div>
+          </div>
+          <div class="training-decoration">S<span>A</span></div>
+        </div>
+        <div class="training-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> LEARN YOUR WAY</div>
+          <h2>Less memorising.<br><span>More making.</span></h2>
+          <p class="muted-copy">We believe skills grow when you put them into practice. Our online training is designed to make technical concepts easier to understand and apply.</p>
+          <ul class="benefit-list">
+            <li><span class="benefit-check">✓</span><div><strong>Beginner-friendly guidance</strong><small>Build confidence from the basics.</small></div></li>
+            <li><span class="benefit-check">✓</span><div><strong>Hands-on exercises</strong><small>Learn by writing code and designing interfaces.</small></div></li>
+            <li><span class="benefit-check">✓</span><div><strong>Project-focused practice</strong><small>Turn concepts into useful work samples.</small></div></li>
+            <li><span class="benefit-check">✓</span><div><strong>Online and weekend learning</strong><small>Saturday and Sunday batches are available.</small></div></li>
+          </ul>
+          <a class="button button-gold" href="#contact">Plan your learning <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-inner">
+        <div class="about-label"><span class="about-star">✦</span><span>THE SMARTA APPROACH</span></div>
+        <h2>Learn today.<br><span>Build tomorrow.</span></h2>
+        <p>SmartA Academy is an online learning space for students, beginners, and aspiring professionals who want to develop practical IT skills. Our goal is to make learning approachable, useful, and connected to real projects.</p>
+        <div class="values-row"><div><span>01</span><strong>Clarity</strong><small>Concepts made approachable.</small></div><div><span>02</span><strong>Practice</strong><small>Learning through doing.</small></div><div><span>03</span><strong>Growth</strong><small>Progress at every step.</small></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> LET'S GET STARTED</div>
+          <h2>Your next skill<br>starts with a <span>hello.</span></h2>
+          <p class="muted-copy">Tell us what you want to learn. We’ll help you explore the course and next steps.</p>
+          <div class="contact-detail"><span class="detail-icon">↗</span><div><small>CALL OR WHATSAPP</small><a href="https://wa.me/919789783876" target="_blank" rel="noopener">+91 9789783876</a></div></div>
+          <div class="contact-detail"><span class="detail-icon">@</span><div><small>EMAIL US</small><a href="mailto:sridevi122000@gmail.com">sridevi122000@gmail.com</a></div></div>
+          <div class="online-note"><span class="online-dot"></span> Online classes available for learners in Arumuganeri and other locations.</div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-heading"><span>COURSE ENQUIRY</span><span class="form-spark">✦</span></div>
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="phone">Phone number <span class="optional">(optional)</span></label><input id="phone" name="phone" type="tel" placeholder="+91">
+          <label for="course">Course you’re interested in</label>
+          <select id="course" name="course" required>
+            <option value="">Select a course</option><option>Web Design</option><option>UI/UX Design</option><option>Adobe XD</option><option>C Programming</option><option>Java</option><option>Python</option><option>MERN Stack Development</option><option>Not sure yet</option>
+          </select>
+          <label for="message">What would you like to learn? <span class="optional">(optional)</span></label><textarea id="message" name="message" rows="3" placeholder="Tell us a little about your goals..."></textarea>
+          <button class="button button-gold submit-button" type="submit">Prepare enquiry email <span>↗</span></button>
+          <p class="form-note" id="formNote">This form opens your email app with the enquiry details. It does not store submissions on this website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="brand" href="#home"><span class="brand-mark">S<span>A</span></span><span class="brand-name">SmartA <small>ACADEMY</small></span></a>
+      <p>Learn. Practice. Grow.</p>
+      <div class="footer-links"><a href="#courses">Courses</a><a href="#training">Training</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> SmartA Academy. All rights reserved.</span><span>Built for curious minds <b>✦</b></span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
